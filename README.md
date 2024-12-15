@@ -1,4 +1,4 @@
-# Challenge 03: Positive
+# Challenge 03: Positive Responsive
 
 This project is a **responsive landing page** for a ride-sharing app, created as part of my learning journey in web
 development. The objective was to adapt the **desktop-only layout** from a [previous project](https:://github.com/ipaulaa/positive)
