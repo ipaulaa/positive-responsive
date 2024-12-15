@@ -41,15 +41,15 @@ nav a {
   letter-spacing: 1px;
 }
 
-img {
-  height: 500px;
+.desktop-img {
+  width: 40vw;
+  max-width: 595px;
   margin: 0 85px 0 121px;
 }
 
 section {
   display: inline-block;
   vertical-align: top;
-
   width: 493px;
   margin-top: 96px;
 }
@@ -77,4 +77,60 @@ p {
   line-height: 27px;
   font-weight: 500;
   letter-spacing: 1px;
+}
+
+.mobile-img {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    margin: 17px 15px 0 0;
+    text-align: right;
+  }
+
+  nav a {
+    margin-right: 0;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .signup-link {
+    padding: 6px 10px;
+
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
+  section {
+    display: block;
+
+    width: 100%;
+    margin: 76px 0 55px;
+    padding: 0 55px;
+
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  p {
+    margin: 30px 0;
+  }
+
+  .mobile-img {
+    display: revert;
+    width: 100%;
+    padding: 0 38px;
+    min-width: 312px;
+  }
 }
