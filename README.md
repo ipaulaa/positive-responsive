@@ -7,7 +7,7 @@ responsive web design.
 
 ## 📸 Screenshots
 
-![positive-responsive](readme/positive-responsive.png)
+![positive-responsive](assets/readme/positive-responsive.png)
 
 ## 🔗 Link
 
